@@ -26,8 +26,8 @@ console.log(`${ fname } ${ 5*9 }`);
 console.log( lname + 6 );
 
 
-let user = "G";
-let pass = "G001";
+user = "G";
+pass = "G001";
 
 if ( user == "G") {
     console.log(`you are ` + user);
@@ -41,38 +41,39 @@ let user = "G";
 let pass = "G001";
 
 if ( user == "G" && pass == "G001" ) 
-    console.log(`you are ` + user + and your pass is ` + pass);
+    console.log( ` you are ` + user + and your pass is )` + pass);
 
  else {
     console.error("DENIED")
 
 
-const license = 18;
+e too young to drive")
+}
+
+checkAge(6);
+checkAge(17);const license = 18;
 const jrop = 16;
 const renal = 25;
 
 let myAge =46
 
-if (myAge < license && myAge >= JROP) {
-    console.log('you can have a jrOp License');
+function checkAg( my age ) {
+if (myAge < license && myAge >= jrOp) {
+    console.log('you can have a jrOp License`;
 
-}
+
 
 if (myAge>= license) {
-    console.log('you can have a regular license');
+    console.log(`you can have a regular license`);
 
 }
 
 if (myAge >= rental) {
-    console.log('you csn rent a car)
+    console.log(`you csn rent a car`);
 
 }
 
 if (myAge < jrOp) {
-    console.log("you're too young to drive")
-}
-
-checkAge(6);
-checkAge(17);
+    console.log("you'r
 checkAge(19);
 checkAge(37);
