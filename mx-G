@@ -1,0 +1,17 @@
+// 1. Declare a variable 'score' and assign it a number between 0 and 100.
+let score = 85;
+
+// 2. Write an if statement to check the value of 'score'.
+if (score >= 90) {
+    // 3. Display a message based on the specified grading criteria.
+    console.log('A*');
+} else if (score >= 80 && score <= 89) {
+    console.log('B');
+} else if (score >= 70 && score <= 79) {
+    console.log('C*');
+} else if (score >= 60 && score <= 69) {
+    console.log('D');
+} else {
+    console.log('F');
+}
+
