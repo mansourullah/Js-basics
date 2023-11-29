@@ -1,17 +1,33 @@
+document.querySelector('form').addEventListener('submit',checkGrade);
+
 // 1. Declare a variable 'score' and assign it a number between 0 and 100.
-let score = 85;
+const A=90;
+const BO=80;
+const B=89;
+const CO=70;
+const C=79;
+const F=60;
+const D=69;
+
 
 // 2. Write an if statement to check the value of 'score'.
+function CheckGrade(e) 
+{
+    e.preventDefault();
+    let myGrade = document.querySelector('input').value;
+    let message = "";
+
 if (score >= 90) {
     // 3. Display a message based on the specified grading criteria.
-    console.log('A*');
-} else if (score >= 80 && score <= 89) {
-    console.log('B');
-} else if (score >= 70 && score <= 79) {
-    console.log('C*');
-} else if (score >= 60 && score <= 69) {
-    console.log('D');
+    message +='A*';
+} else if (myGrade >= 80 && score <= 89) {
+    message+='B';
+} else if (MyGrade >= 70 && score <= 79) {
+    message+='C*';
+} else if (MyGrade >= 60 && score <= 69) {
+    message+='D';
 } else {
-    console.log('F');
+    message+='F';
 }
 
+}
